@@ -1,0 +1,6 @@
+If you want to run a public chat server for PECSC, it's simple!
+
+Just put your server IP and PORT down below (the first entry is just an example):
+
+--- SERVER IP --- --- SERVER PORT --- --- DESCRIPTION (optional) ---
+--- 127.0.0.1 --- --- 80 --- --- no place like home ---
