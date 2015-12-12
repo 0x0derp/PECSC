@@ -2,6 +2,7 @@
 Python Encrypted Chat Server/Client
 
 Usage:
+
 sudo python pecsc_Client.py -h [PUT HOST IP HERE] -p [PUT HOST PORT HERE]
 
 or if you're running a chat server:
