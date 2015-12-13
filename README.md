@@ -5,6 +5,7 @@ Python Encrypted Chat Server/Client
 
 sudo python pecsc_Client.py
 
+
 or if you're running a server:
 
 sudo python pecsc_Server.py
