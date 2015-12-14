@@ -8,3 +8,7 @@ openssl genrsa 1024 > key
 openssl req -new -x509 -nodes -sha1 -days 365 -key key > cert
 
 that's pretty much it, if theres anything else ill add it here later
+
+test SSL client/server:
+openssl s_server -accept 12345 -cert cert -key key
+openssl s_client -connect localhost:12345
