@@ -4,7 +4,9 @@ Python Encrypted Chat Server/Client
 # Usage:
 
 sudo python pecsc_Client.py
+
 or
+
 sudo python pecsc_Server.py
 
 See "ClientInstructions.txt" or "ServerInstructions.txt" for more info
