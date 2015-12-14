@@ -1,0 +1,15 @@
+ok so here are some simple intructions on setting up your client:
+
+open terminal
+navigate to pecsc_Client.py's directory
+type "sudo python pecsc_Client.py"
+
+now enter the IP and HOST of the server you're connecting to
+
+if your connection is successful:
+GUI should pop up
+
+put your username (handle) in the first box, then whenever you feel like chatting:
+type your stuff in the bottom text box, and click the "Send" button
+
+keep an eye on the terminal, becuase that is where you will see other user's chat
