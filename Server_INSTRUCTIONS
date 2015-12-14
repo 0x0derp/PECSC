@@ -1,0 +1,10 @@
+so if you want to run a server, it takes some setting up:
+
+you need to install pyopenssl (sudo apt-get install python-pyopenssl)
+
+Generate Private Key/Cert (commandline):
+
+openssl genrsa 1024 > key
+openssl req -new -x509 -nodes -sha1 -days 365 -key key > cert
+
+that's pretty much it, if theres anything else ill add it here later
