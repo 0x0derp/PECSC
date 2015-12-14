@@ -1,14 +1,11 @@
-so if you want to run a server, it takes some setting up:
+ok so now running a server is pretty easy:
 
-you need to install pyopenssl (sudo apt-get install python-pyopenssl)
+sudo python pecsc_Server.py
 
-Generate Private Key/Cert (commandline):
+You'll be prompted for ip and port to run the server on
 
-openssl genrsa 1024 > key
-openssl req -new -x509 -nodes -sha1 -days 365 -key key > cert
+now here's a drawback to this server code:
 
-that's pretty much it, if theres anything else ill add it here later
+you have to answer another prompt for number of clients, so whatever number you put in, the server has to wait until that many people connect to the server to begin the main server loop
 
-test SSL client/server:
-openssl s_server -accept 12345 -cert cert -key key
-openssl s_client -connect localhost:12345
+so if anyone has any ideas on how to fix this problem, submit a pull request!
