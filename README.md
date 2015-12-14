@@ -1,4 +1,4 @@
-# PECSC (still coding! Im not done yet)
+# PyEChat (still coding! Im not done yet)
 Python Encrypted Chat Server/Client
 
 # Usage:
