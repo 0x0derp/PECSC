@@ -1,9 +1,9 @@
-# PECSC (still coding! Im not done yet)
+# PECSC
 Python Encrypted Chat Server/Client
 
 # Usage:
 
-sudo python pecsc_Client.py
+python pecsc_Client.py
 
 or
 
